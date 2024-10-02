@@ -35,11 +35,11 @@ import { TodoController } from './todo.controller';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mariadb',
-      host: 'localhost',
+      host: 'z37hpc.myd.infomaniak.com',
       port: 3306,
-      username: 'root',
-      password: 'something',
-      database: 'todo_db',
+      username: 'z37hpc_root',
+      password: 'Martech_Fc_2024',
+      database: 'z37hpc_system',
       entities: [Todo],
       synchronize: true,
     }),
